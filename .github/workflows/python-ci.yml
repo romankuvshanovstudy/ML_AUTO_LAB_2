@@ -30,8 +30,8 @@ jobs:
     - name: Run tests
       run: |
         source venv/bin/activate  
-        chmod +x setup_and_run.sh  
-        ./setup_and_run.sh  
+        chmod +x pipeline.sh  
+        ./pipeline.sh  
 
     - name: Deactivate virtual environment
       run: deactivate  # Деактивируем виртуальное окружение после выполнения
