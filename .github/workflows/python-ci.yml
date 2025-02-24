@@ -32,6 +32,3 @@ jobs:
         source venv/bin/activate  
         chmod +x pipeline.sh  
         ./pipeline.sh  
-
-    - name: Deactivate virtual environment
-      run: deactivate  # Деактивируем виртуальное окружение после выполнения
