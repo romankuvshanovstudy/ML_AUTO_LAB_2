@@ -26,4 +26,3 @@ python3 model_preparation.py
 echo "Запускаем тестирование модели..."
 python3 model_testing.py
 
-deactivate
