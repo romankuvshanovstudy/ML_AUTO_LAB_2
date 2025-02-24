@@ -15,13 +15,13 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 echo "Запускаем генерацию данных..."
-python3 data_generation.py
+python3 data_creation.py
 
 echo "Запускаем предобработку данных..."
-python3 data_preprocessing.py
+python3 model_preprocessing.py
 
 echo "Запускаем обучение модели..."
-python3 model_training.py
+python3 model_preparation.py
 
 echo "Запускаем тестирование модели..."
 python3 model_testing.py
