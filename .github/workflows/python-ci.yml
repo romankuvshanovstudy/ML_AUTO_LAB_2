@@ -20,15 +20,10 @@ jobs:
       with:
         python-version: '3.9'
 
-    - name: Install dependencies
-      run: |
-        python -m venv venv 
-        source venv/bin/activate 
-        pip install --upgrade pip  
-        pip install -r requirements.txt 
+   
 
     - name: Run tests
       run: |
         source venv/bin/activate  
         chmod +x pipeline.sh  
-        ./pipeline.sh  
+        ./pipeline.sh  y
